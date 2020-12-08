@@ -12,3 +12,7 @@ spec:
   values:
     meshProvider: istio
     metricsServer: http://prometheus.istio-system:9090
+    slack:
+      user: flagger
+      channel: general
+      url: https://hooks.slack.com/services/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
